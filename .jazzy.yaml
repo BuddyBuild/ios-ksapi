@@ -1,0 +1,16 @@
+clean: true
+# sdk: iphoneos
+# source_directory: KsApi
+# swift_version: 3.0
+author: Kickstarter
+author_url: https://github.com/Kickstarter/ios-ksapi
+github_url: https://github.com/Palleas/ios-ksapi
+module: KsApi
+readme: README.me
+skip_undocumented: false
+xcodebuild_arguments:
+  - -project
+  - KsApi.xcodeproj
+  - -scheme
+  - KsApi-iOS
+  - -destination,platform=iOS Simulator,name=iPhone 6,OS=iOS10.2
