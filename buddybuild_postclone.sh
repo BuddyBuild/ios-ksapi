@@ -11,6 +11,6 @@ brew install sqlite3 --force
 # Update bundler
 gem install bundler
 
-gem install sqlite3  -v '1.3.13' -- --with-sqlite3-dir=/opt/local
+gem install sqlite3  -v '1.3.13' -- --with-sqlite3-dir=/usr/local/opt/sqlite
 # gem install sqlite3 -v '1.3.13'
 bundle install
