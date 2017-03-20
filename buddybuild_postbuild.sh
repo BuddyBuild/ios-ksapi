@@ -1,12 +1,5 @@
 #/bin/bash
-eval "$(rbenv init -)"
-
-rbenv local 2.4.0
-
-which ruby
-ruby -v
-
-gem install bundler && rbenv rehash
+chruby 2.3.1 && gem install bundler
 
 bundle install
 bundle exec jazzy
