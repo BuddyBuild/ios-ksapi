@@ -2,7 +2,12 @@
 bin/bootstrap
 
 #
+echo "SQLITE="
 which -a sqlite3
+
+echo "Ruby version"
+which ruby
+ruby -v
 
 # Install sqlite
 brew update
