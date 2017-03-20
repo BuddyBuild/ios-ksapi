@@ -4,6 +4,7 @@ author_url: https://github.com/Kickstarter/ios-ksapi
 github_url: https://github.com/Kickstarter/ios-ksapi
 module: KsApi
 readme: README.md
+exclude: Configs/Secrets*
 skip_undocumented: false
 xcodebuild_arguments:
   - -project
