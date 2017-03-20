@@ -11,7 +11,16 @@ ruby -v
 
 # Install sqlite
 brew update
-brew install sqlite3 --force
+brew install rbenv
+brew install sqlite3
+
+rbenv init
+
+rbenv install 2.4.0
+
+echo "Ruby version"
+which ruby
+ruby -v
 
 # Update bundler
 gem install bundler
