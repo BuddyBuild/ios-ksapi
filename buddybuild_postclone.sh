@@ -14,7 +14,7 @@ brew update
 brew install rbenv
 
 rbenv init
-
+echo $PATH
 rbenv install 2.4.0
 rbenv local 2.4.0
 
