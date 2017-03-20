@@ -1,12 +1,9 @@
 clean: true
-# sdk: iphoneos
-# source_directory: KsApi
-# swift_version: 3.0
 author: Kickstarter
 author_url: https://github.com/Kickstarter/ios-ksapi
-github_url: https://github.com/Palleas/ios-ksapi
+github_url: https://github.com/Kickstarter/ios-ksapi
 module: KsApi
-readme: README.me
+readme: README.md
 skip_undocumented: false
 xcodebuild_arguments:
   - -project
